@@ -6,4 +6,4 @@ set "luac_path=main.lua"
 
 "%lua_folder%" "%luac_path%"
 
-exit
+pause

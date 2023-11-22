@@ -92,11 +92,14 @@ vbox = iup.vbox{
   button,
   alignment = "acenter",
   gap = "10",
-  margin = "10x10"
+  margin = "10x10", 
+  bgcolor = "173 216 230"  -- Light blue
 }
 dlg = iup.dialog{
   vbox,
   title = "Hello World 5"
+  bgcolor = "173 216 230"  -- Light blue
+
 }
 
 dlg:showxy(iup.CENTER,iup.CENTER)
