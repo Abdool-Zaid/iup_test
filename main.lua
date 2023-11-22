@@ -1,3 +1,7 @@
 require("iuplua")
 local hello1 = require('hello_world')
-hello1.run()
+-- hello1.run()
+-- hello1.dialog()
+-- hello1.interact()
+-- hello1.layout()
+hello1.improved_layout()
